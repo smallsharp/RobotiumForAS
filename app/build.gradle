@@ -9,7 +9,7 @@ android {
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "android.test.InstrumentationTestRunner"//第一处：InstrumentationTestRunner
+//      testInstrumentationRunner "android.test.InstrumentationTestRunner"//不需要这个
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
